@@ -14,40 +14,38 @@ import java.util.concurrent.*;
  *
  */
 public class ConcurrentTest {
-    @Autowired
-    private PlatformTransactionManager platformTransactionManager;
     @Test
-    public void test() {
+    public void test() throws ExecutionException, InterruptedException {
 
-        TransactionStatus transaction = platformTransactionManager.getTransaction(new DefaultTransactionDefinition());
         ExecutorService pool = Executors.newFixedThreadPool(10);
         ListeningExecutorService executorService = MoreExecutors.listeningDecorator(pool);
-        ListenableFuture<TransactionStatus> submit = executorService.submit(new CallableDemo(transaction));
+        ListenableFuture<String> submit = executorService.submit(new Callable<String>() {
+            @Override
+            public String call() throws Exception {
+                try {
+                    int i = 1/0;
+                } catch (Exception e) {
+                    throw e;
+                }
+                return "aaa";
+            }
+        });
         Futures.addCallback(submit,new CallbackDemo(),pool);
+        System.err.println(submit.get());
 
     }
-    class CallableDemo implements Callable<TransactionStatus>{
 
-        private TransactionStatus transactionStatus;
+    class CallbackDemo implements FutureCallback<String>{
 
-        CallableDemo(TransactionStatus transactionStatus) {
-            this.transactionStatus = transactionStatus;
+        @Override
+        public void onSuccess(String result) {
+            System.out.println("bbb");
         }
 
-        public TransactionStatus call() throws Exception {
-            return transactionStatus;
-        }
-    }
-    class CallbackDemo implements FutureCallback<TransactionStatus>{
-
-        public void onSuccess(TransactionStatus transactionStatus) {
-
-            platformTransactionManager.commit(transactionStatus);
-
-        }
-
+        @Override
         public void onFailure(Throwable t) {
-            System.err.println("hewei");
+            System.out.println("ccx");
         }
     }
+
 }

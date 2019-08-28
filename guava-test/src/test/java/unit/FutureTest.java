@@ -1,6 +1,11 @@
 package unit;
 
 
+import com.google.common.util.concurrent.FutureCallback;
+import com.google.common.util.concurrent.ListeningExecutorService;
+import com.google.common.util.concurrent.MoreExecutors;
+import org.junit.Test;
+
 import java.util.Random;
 import java.util.concurrent.*;
 
@@ -66,4 +71,36 @@ public class FutureTest {
         System.err.println("time: " + (System.currentTimeMillis() - t1));
     }
 
+    @Test
+    public void test() {
+        ListeningExecutorService executorService = MoreExecutors.listeningDecorator(Executors.newFixedThreadPool(10));
+
+
+    }
+    class FallbackDemo implements FutureCallback<String>{
+
+        @Override
+        public void onSuccess(String result) {
+
+        }
+
+        @Override
+        public void onFailure(Throwable t) {
+
+        }
+    }
+
+    @Test
+    public void testTry() {
+        try {
+            try {
+                int i = 1/0;
+            } catch (Exception e) {
+                throw e;
+            }
+        } catch (Exception e) {
+
+        }
+        System.out.println("ssss");
+    }
 }
