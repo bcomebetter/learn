@@ -14,25 +14,47 @@ import java.util.concurrent.*;
  *
  */
 public class ConcurrentTest {
+    private String i;
     @Test
     public void test() throws ExecutionException, InterruptedException {
 
         ExecutorService pool = Executors.newFixedThreadPool(10);
         ListeningExecutorService executorService = MoreExecutors.listeningDecorator(pool);
-        ListenableFuture<String> submit = executorService.submit(new Callable<String>() {
-            @Override
-            public String call() throws Exception {
-                try {
-                    int i = 1/0;
-                } catch (Exception e) {
-                    throw e;
-                }
-                return "aaa";
-            }
-        });
-        Futures.addCallback(submit,new CallbackDemo(),pool);
-        System.err.println(submit.get());
+        ListenableFuture<String> submit = null;
+        try {
+            submit = executorService.submit(new Callable<String>() {
+                @Override
+                public String call() throws Exception {
+                    try {
 
+                        int i = 1/0;
+                        //提交
+                    } catch (Exception e) {
+                        //回滚
+                        System.out.println("aaa");
+                        throw e;
+                    }
+                    return "aaa";
+                }
+            });
+        } catch (Exception e) {
+            //主线程事务回滚
+        }
+
+
+        //实现回滚失败
+        Futures.addCallback(submit, new FutureCallback<String>() {
+            @Override
+            public void onSuccess(String result) {
+
+            }
+
+            @Override
+            public void onFailure(Throwable t) {
+
+            }
+        },pool);
+        boolean done = submit.isDone();
     }
 
     class CallbackDemo implements FutureCallback<String>{

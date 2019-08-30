@@ -12,6 +12,7 @@ import static org.hamcrest.core.IsEqual.equalTo;
 public class IntMathTest {
     @Test
     public void mathTest() {
+        //jdk也提供了类似的方法,只不过需要二次取值
         //二项式系数,n为底数,n<k illegalArgumentException
         System.out.println("返回的二项式系数为:"+IntMath.binomial(5, 1));
         //阶乘

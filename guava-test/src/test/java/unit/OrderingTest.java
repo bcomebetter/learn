@@ -1,5 +1,6 @@
 package unit;
 
+import com.google.common.collect.ComparisonChain;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Ordering;
 import org.junit.Test;
@@ -14,14 +15,18 @@ import java.util.List;
  * 该类实现了Comparator接口,主要是作为一个比较器,类中提供了按一定规则取排完续后的集合中得元素的方法,如:取最后几位等..
  */
 public class OrderingTest {
+    private final List<String> strings = Lists.newArrayList(
+            "google","guava","java","zhushuangshuang","hewei"
+    );
     @Test
     public void testNatural() {
+//        ComparisonChain.start().
         //order产生的是一个比较器!!
         ArrayList<Integer> numbers = Lists.newArrayList(1, 2, 3, 4, 5, 22, 33, 44, 2, 4, 3, 5, 2);
         Ordering<Comparable> natural = Ordering.natural();
-        Collections.sort(numbers,natural);
-        for (Integer number : numbers) {
-            System.err.println(number);
+        Collections.sort(strings,natural);
+        for (String s : strings) {
+            System.err.println(s);
         }
     }
 

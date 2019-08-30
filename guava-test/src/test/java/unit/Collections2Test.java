@@ -20,6 +20,7 @@ import java.util.Set;
 public class Collections2Test {
     @Test
     public void multisetTest() {
+        //与link比较
         HashMultiset<String> hashMultiset = HashMultiset.create();
         hashMultiset.add("aaa");
         hashMultiset.add("aaa");
@@ -28,7 +29,7 @@ public class Collections2Test {
         }
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test
     public void hashBiMap() {
         HashBiMap<String, String> hashBiMap = HashBiMap.create();
         hashBiMap.put("mon","星期一");
@@ -53,19 +54,20 @@ public class Collections2Test {
         employeeTable.put("TCS", "123","Shyam");
 
         //get Map corresponding to IBM
-        Map<String,String> ibmEmployees =  employeeTable.column("TCS");
+        Map<String,String> ibmEmployees =  employeeTable.column("aaa");
         Set<String> strings = ibmEmployees.keySet();
         System.err.println(strings.size());
 
     }
     @Test
     public void testStuScoreMultimap(){
+        //一对多
         Multimap<String,StudentScore> scoreMultimap = ArrayListMultimap.create();
         for(int i=10;i<20;i++){
             StudentScore studentScore=new StudentScore();
             studentScore.courseId=1001+i;
             studentScore.score=100-i;
-            scoreMultimap.put("peida",studentScore);
+            scoreMultimap.put("kdshf",studentScore);
         }
         System.err.println(StringUtils.isAllLowerCase("aaa"));
         System.out.println("scoreMultimap:"+scoreMultimap.size());

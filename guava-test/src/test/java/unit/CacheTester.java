@@ -25,13 +25,15 @@ public class CacheTester {
                         .build(new CacheLoader<String, Employee>() {
                             @Override
                             public Employee load(String empId) throws Exception {
+                                //别的集合类型
                                 return getFromDatabase(empId);
                             }
                         });
 
         try {
-            //on first invocation, cache will be populated with corresponding
+            //如果缓存不存在,调用CacheLoader中的load方法
             //employee record
+           //ca
             System.out.println("Invocation #1");
             System.out.println(employeeCache.get("100"));
             System.out.println(employeeCache.get("103"));

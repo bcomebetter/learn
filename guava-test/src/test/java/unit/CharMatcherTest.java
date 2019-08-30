@@ -1,7 +1,6 @@
 package unit;
 
 import com.google.common.base.CharMatcher;
-import com.google.common.base.Splitter;
 import lombok.Data;
 import org.junit.Test;
 
@@ -22,6 +21,7 @@ public class CharMatcherTest {
         System.out.println(match(str1, str));
 
         CharMatcher matcher = CharMatcher.is('b');
+        System.err.println(matcher.matches('b'));
         CharMatcher matcher1 = CharMatcher.is('c');
         CharMatcher matcher2 = matcher1.or(matcher);
         System.err.println(matcher2.matches('a'));
@@ -45,6 +45,8 @@ public class CharMatcherTest {
                 return i+1;
             }
         }
+        //方法的目的
+        //每个参数的意义,为什么
         return -1;
     }
 }

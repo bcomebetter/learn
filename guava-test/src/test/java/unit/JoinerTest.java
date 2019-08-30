@@ -44,14 +44,14 @@ public class JoinerTest {
 
     @Test(expected = NullPointerException.class)
     public void testJoinSplitNullPointException() {
-        //返回一个人带有分隔符的joiner对象,如果分隔符为null,抛出空指针异常
+        //返回一个人带有连接符的joiner对象,如果分隔符为null,抛出空指针异常
         Joiner.on(null);
     }
 
     @Test(expected = NullPointerException.class)
     public void testListWithNull() {
         //当集合中存在未处理的空值时,出现空指针异常
-        System.err.println(Joiner.on("?").join(stringsWithNull));
+        System.err.println(Joiner.on("-").join(stringsWithNull));
     }
 
     @Test

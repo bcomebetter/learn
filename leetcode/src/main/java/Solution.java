@@ -8,6 +8,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
+/**
+ * @author hewei
+ */
 public class Solution {
     /**
      * 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。
@@ -20,7 +23,7 @@ public class Solution {
         for (int i = 0,len = nums.length ; i < len; i++) {
             int s = target -nums[i];
             if (map.containsKey(s)){
-                return  new int[]{nums[i],s};
+                return  new int[]{map.get(s),i};
             }
             map.put(nums[i],i);
         }
@@ -35,27 +38,37 @@ public class Solution {
     public int lengthOfLongestSubstring(String s) {
         int maxLen = 0;
         HashSet<Character> set = new HashSet<Character>();
-        for (int i = 0,j=1; j <= s.length();j++) {
-            boolean contains = set.contains(s.charAt(j-1));
+        for (int i = 0,j=0; j < s.length();j++) {
+            boolean contains = set.contains(s.charAt(j));
             if (contains){
-                set.clear();
-                maxLen = Math.max(j-i-1,maxLen);
-                i = j;
+                maxLen = Math.max(j-i,maxLen);
+                set.remove(s.charAt(i++));
+                j--;
+            }else {
+                set.add(s.charAt(j));
             }
-            set.add(s.charAt(j-1));
+            maxLen = Math.max(j-i+1,maxLen);
         }
         return maxLen;
     }
 
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+        int length1 = nums1.length;
+        int length2 = nums2.length;
+
+        int aver = (length1+length2)/2;
+        int i=1,j;
+        for (;i<aver;i++){
+            if (nums1[i]<=nums2[aver-i]){
+
+            }
+
+        }
         return 1;
     }
     public static void main(String[] args) {
         Solution solution = new Solution();
-        int [] nums3 = {3,8,12,17,18};
-        int[] ints = solution.twoSum(nums3, 12);
-        for (int anInt : ints) {
-            System.out.println(anInt);
-        }
+        System.err.println(solution.lengthOfLongestSubstring("abcabcbb"));
+
     }
 }

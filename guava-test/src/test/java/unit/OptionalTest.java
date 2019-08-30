@@ -16,10 +16,11 @@ import static org.hamcrest.core.IsEqual.equalTo;
  * 当该容器中存放的为null值是,可以通过or()方法对null值进行取代
  */
 public class OptionalTest {
-    @Test(expected = NullPointerException.class)
+    @Test
     public void Option() {
         //获取optional实例的两种方式
         Optional<String> optionWithNull = Optional.absent();
+
         Optional<String> option = Optional.of("aaa");
         Optional<String> optionTwo = Optional.of("bbb");
         Optional<String> optionT = Optional.of(null);

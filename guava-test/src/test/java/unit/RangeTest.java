@@ -15,7 +15,7 @@ public class RangeTest {
     @Test
     public void test() {
         //判断
-        Range<Integer> range = Range.closed(0, 9);
+        Range<Integer> range = Range.closedOpen(0, 9);
         System.out.println(range);
         System.err.println(range.contains(5));
         System.err.println(range.contains(10));
