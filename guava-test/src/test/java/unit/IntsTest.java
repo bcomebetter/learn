@@ -2,6 +2,7 @@ package unit;
 
 import com.google.common.base.Converter;
 import com.google.common.collect.Lists;
+import com.google.common.math.DoubleMath;
 import com.google.common.primitives.Ints;
 import com.google.common.primitives.Longs;
 import org.junit.Test;
@@ -48,5 +49,6 @@ public class IntsTest {
         //将二进制数11转化为10进制数
         System.err.println(Ints.tryParse("11",2));
         System.err.println(Longs.tryParse("1111", 8));
+
     }
 }

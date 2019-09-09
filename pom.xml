@@ -6,10 +6,12 @@
 
     <groupId>club.emergency</groupId>
     <artifactId>learn</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>guava-test</module>
         <module>leetcode</module>
+        <module>concurrent</module>
     </modules>
 
 </project>

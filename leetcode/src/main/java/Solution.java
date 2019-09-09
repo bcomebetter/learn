@@ -1,10 +1,6 @@
-import com.google.common.base.Joiner;
-import com.google.common.base.Preconditions;
-import com.google.common.base.Splitter;
 import com.google.common.primitives.Ints;
+import com.sun.xml.internal.bind.v2.TODO;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -12,6 +8,23 @@ import java.util.HashSet;
  * @author hewei
  */
 public class Solution {
+    static int findLastEqual(int[] array, int key) {
+        int left = 0;
+        int right = array.length - 1;
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            if (array[mid] <= key) {
+                left = mid + 1;
+            }
+            else {
+                right = mid - 1;
+            }
+        }
+        if (right >= 0 && array[right] == key) {
+            return right;
+        }
+        return -1;
+    }
     /**
      * 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。
      * @param nums
@@ -55,20 +68,66 @@ public class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int length1 = nums1.length;
         int length2 = nums2.length;
-
-        int aver = (length1+length2)/2;
-        int i=1,j;
-        for (;i<aver;i++){
-            if (nums1[i]<=nums2[aver-i]){
-
-            }
-
+        //flag为false 长度之和为奇数
+        boolean flag = false;
+        if (length1>length2){
+            return findMedianSortedArrays(nums2,nums1);
         }
-        return 1;
+        int aver = (length1+length2)/2;
+        if ((length1+length2)%2==0){
+            flag = true;
+        }
+        if (length1==1){
+            if (length1==length2){
+                return (nums1[0]+nums2[0])/2.0;
+            }
+            for (int i = length2/2; i < length2;) {
+                if (nums2[i]>nums1[0]&&nums2[0]<nums1[0]){
+
+                }
+            }
+        }
+        //考虑nums1中数全部小于nums2的情况
+        if (nums1[length1-1]<=nums2[0]){
+            if (flag){
+                return (nums2[aver-length1]+nums2[aver-length1-1])/2;
+            }
+            return nums2[aver-length1];
+        }
+        //考虑nums2中数全部小于nums1的情况
+        if (nums2[length2-1]<=nums1[0]){
+            if (flag){
+                return (nums2[aver]+nums2[aver-1])/2;
+            }
+            return nums2[aver];
+        }
+
+        int i;
+        for (i = length1/2; i < length1;) {
+            if (nums1[i]>nums2[aver-i]){
+                //改用二分查找
+                i=i/2;
+                continue;
+            }
+            if (nums2[aver-i-1]>nums1[i+1]){
+                //改用二分查找
+                i++;
+                continue;
+            }
+            break;
+        }
+        if (flag){
+            return (nums1[i]+nums2[aver-i])/2.0;
+        }
+        return Math.max(nums1[i],nums2[aver-i-1]);
     }
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.err.println(solution.lengthOfLongestSubstring("abcabcbb"));
 
+        int[] b={1,5,6,7,7,7,7,8,9,10,12};
+        System.out.println(Solution.findLastEqual(b, 7));
+        Solution solution = new Solution();
+        int[] arr2 = {1,3};
+        int[] arr1 = {2};
+        System.err.println(solution.findMedianSortedArrays(arr2,arr1));
     }
 }

@@ -20,10 +20,11 @@ import java.util.Set;
 public class Collections2Test {
     @Test
     public void multisetTest() {
-        //与link比较
+        //与link比较 Multiset有count方法
         HashMultiset<String> hashMultiset = HashMultiset.create();
         hashMultiset.add("aaa");
         hashMultiset.add("aaa");
+        hashMultiset.setCount("bbb",5);
         for (Object o : hashMultiset) {
             System.out.println(o);
         }

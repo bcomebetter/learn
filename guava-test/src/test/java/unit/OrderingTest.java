@@ -37,6 +37,7 @@ public class OrderingTest {
         Ordering<Comparable> natural = Ordering.natural();
         Ordering<Comparable> nullFirst = natural.nullsFirst();
         Ordering<Comparable> nullsLast = natural.nullsLast();
+
         Collections.sort(numbers,nullFirst);
         for (Integer number : numbers) {
             System.err.println(number);
