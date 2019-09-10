@@ -8,7 +8,7 @@ public class FileSearchTest {
         Thread task = new Thread(fileSearch);
         task.start();
         try {
-            TimeUnit.SECONDS.sleep(10);
+            TimeUnit.SECONDS.sleep(8);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
