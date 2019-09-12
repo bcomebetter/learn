@@ -11,6 +11,7 @@
         <module name="guava-test" />
         <module name="leetcode" />
         <module name="concurrent" />
+        <module name="data-structure" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8" />

@@ -12,6 +12,7 @@
         <module>guava-test</module>
         <module>leetcode</module>
         <module>concurrent</module>
+        <module>data-structure</module>
     </modules>
 
 </project>
