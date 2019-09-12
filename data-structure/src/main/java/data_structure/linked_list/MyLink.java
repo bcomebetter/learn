@@ -1,7 +1,6 @@
 package data_structure.linked_list;
-
 import java.util.List;
-import java.util.Objects;
+
 
 /**
  * 添加(创建)一个头节点,该节点作为链表遍历的起点
@@ -22,6 +21,7 @@ public class MyLink {
         head.addLast(listDemo3);
         head.addLast(listDemo4);
         head.addLast(listDemo5);
+        head.remove(listDemo3);
         List<ListDemo> show = head.show();
         for (ListDemo demo : show) {
             System.out.println(demo.getName()+"--------"+demo.getPassword());

@@ -15,7 +15,20 @@ public class ListDemo {
     private String name;
     private String password;
     private ListDemo next;
-    private  ListDemo head;
+    private ListDemo head;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ListDemo listDemo = (ListDemo) o;
+        return name.equals(listDemo.name) &&
+                password.equals(listDemo.password);
+    }
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, password);
+    }
 
     /**
      *
@@ -56,8 +69,9 @@ public class ListDemo {
             if (!temp.getNext().equals(listDemo)){
                 temp =temp.getNext();
             }else {
-                temp.setNext(listDemo.getNext());
-                temp.getNext().setNext(null);
+                ListDemo same = temp.getNext();
+                temp.setNext(temp.getNext().getNext());
+                same.setNext(null);
                 return true;
             }
         }
@@ -65,6 +79,9 @@ public class ListDemo {
     public List<ListDemo> show(){
         List<ListDemo> list = Lists.newArrayList();
         ListDemo temp = head;
+        if (Objects.isNull(temp.getNext())){
+            return list;
+        }
         while (true){
             if (Objects.nonNull(temp.getNext())){
                 list.add(temp.getNext());

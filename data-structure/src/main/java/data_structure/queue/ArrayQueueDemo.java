@@ -5,7 +5,7 @@ package data_structure.queue;
 public class ArrayQueueDemo {
     public static void main(String[] args) {
         CycleArrayQueue queue = new CycleArrayQueue();
-        for (int i = 0; i < 11; i++) {
+        for (int i = 0; i < 10; i++) {
             queue.add(i);
         }
         System.out.println(queue.size());
@@ -16,7 +16,6 @@ public class ArrayQueueDemo {
         System.out.println(queue.getFront());
         System.out.println("----");
 
-        queue.add(11);
         queue.list();
     }
 }
