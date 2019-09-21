@@ -24,7 +24,7 @@ public class MyLink {
         head.remove(listDemo3);
         List<ListDemo> show = head.show();
         for (ListDemo demo : show) {
-            System.out.println(demo.getName()+"--------"+demo.getPassword());
+            System.out.println(demo);
         }
     }
 }

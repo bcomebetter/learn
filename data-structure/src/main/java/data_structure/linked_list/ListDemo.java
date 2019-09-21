@@ -18,6 +18,14 @@ public class ListDemo {
     private ListDemo head;
 
     @Override
+    public String toString() {
+        return "ListDemo{" +
+                "name='" + name + '\'' +
+                ", password='" + password + '\'' +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
