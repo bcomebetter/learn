@@ -3,6 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="6af36825-f5f2-4b88-aa05-66fefbb9dcc7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/MyLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/MyLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/META-INF/concurrent.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/concurrent/target/classes/section_two_basic_thread_synchronization/test_my_lock/MyLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/concurrent/target/classes/section_two_basic_thread_synchronization/test_my_lock/MyLock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/ListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/MyLink.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/MyLink.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/target/classes/data_structure/linked_list/ListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/target/classes/data_structure/linked_list/ListDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/target/classes/data_structure/linked_list/MyLink.class" beforeDir="false" afterPath="$PROJECT_DIR$/data-structure/target/classes/data_structure/linked_list/MyLink.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guava-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava-test/src/test/java/unit/JoinerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/guava-test/src/test/java/unit/JoinerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guava-test/target/test-classes/unit/JoinerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/guava-test/target/test-classes/unit/JoinerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/target/classes/Solution.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -44,64 +56,96 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+        <entry file="file://$PROJECT_DIR$/guava-test/src/main/java/com/hzsgreat/utils/MyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="230" column="32" selection-start-line="230" selection-start-column="32" selection-end-line="230" selection-end-column="32" />
+            <state relative-caret-position="135">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding>
-                <element signature="e#5562#5563#0" expanded="true" />
-                <element signature="e#5614#5615#0" expanded="true" />
-                <element signature="e#6849#6850#0" expanded="true" />
-                <element signature="e#6907#6908#0" expanded="true" />
-                <element signature="e#7116#7117#0" expanded="true" />
-                <element signature="e#7150#7151#0" expanded="true" />
-                <element signature="e#8176#8177#0" expanded="true" />
-                <element signature="e#8216#8217#0" expanded="true" />
-                <element signature="e#8451#8452#0" expanded="true" />
-                <element signature="e#8515#8516#0" expanded="true" />
-                <element signature="e#9117#9118#0" expanded="true" />
-                <element signature="e#9144#9145#0" expanded="true" />
-                <element signature="e#17535#17536#0" expanded="true" />
-                <element signature="e#17577#17578#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/reversal/LinkListReversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/reversal/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leetcode/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+        <entry file="file://$PROJECT_DIR$/guava-test/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="862" column="39" selection-start-line="862" selection-start-column="39" selection-end-line="862" selection-end-column="39" />
-              <folding>
-                <element signature="e#41392#41393#0" expanded="true" />
-                <element signature="e#41449#41450#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="432">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/ListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-              <folding>
-                <element signature="e#1663#1664#0" expanded="true" />
-                <element signature="e#1708#1709#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1917">
+              <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer_lock_demo/Buffer.java">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/MyLink.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/count_down_latch/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/count_down_latch/Participant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -121,36 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leetcode/src/main/java/Solution.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_one/share_value_demo/SafeTask.java" />
-        <option value="$PROJECT_DIR$/guava-test/src/main/java/com/hzsgreat/utils/aaa.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_one/group_thread_demo/Result.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_one/group_thread_demo/Main.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_one/process_uncaught_exceptions/MyThreadGroup.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_one/process_uncaught_exceptions/Task.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_one/process_uncaught_exceptions/Main.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_one/process_exception_demo/ExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_one/process_exception_demo/Main.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_one/create_threads_factory/Task.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_one/group_thread_demo/SearchTask.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_one/create_threads_factory/MyThreadFactory.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_one/create_threads_factory/Main.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/aaa.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/transfer_demo/Main.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/transfer_demo/Company.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/transfer_demo/Bank.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/transfer_demo/Account.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/arranging_independent_attributes/Cinema.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/arranging_independent_attributes/TicketOffice1.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/arranging_independent_attributes/TicketOffice2.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/arranging_independent_attributes/Main.java" />
-        <option value="$PROJECT_DIR$/data-structure/src/main/java/data_structure/queue/ArrayQueueDemo.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer/Producer.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer/Consumer.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer/Main.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer/EventStorage.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/lock_reentrantLock/Job.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/lock_reentrantLock/PrintQueue.java" />
         <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/lock_reentrantLock/Main.java" />
         <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/ReadWriteLock_demo/Reader.java" />
         <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/ReadWriteLock_demo/Writer.java" />
@@ -168,10 +182,40 @@
         <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer_lock_demo/MyLock.java" />
         <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/product.java" />
         <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/Product.java" />
-        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/MyLock.java" />
         <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/Main.java" />
         <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/Buffer.java" />
         <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/Consumer.java" />
+        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/MyLock.java" />
+        <option value="$PROJECT_DIR$/concurrent/src/main/resources/note.text" />
+        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/binary_semaphores_demo/Job.java" />
+        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/binary_semaphores_demo/PrintQueue.java" />
+        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/more_than_one_semaphore_demo/PrintQueue.java" />
+        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/binary_semaphores_demo/Main.java" />
+        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/more_than_one_semaphore_demo/Job.java" />
+        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/count_down_latch/VideoConference.java" />
+        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/count_down_latch/Participant.java" />
+        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/count_down_latch/Main.java" />
+        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/more_than_one_semaphore_demo/Main.java" />
+        <option value="$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/note" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/two_thread.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/TwoThread.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/two_thread/TwoThread.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/my_costmer_producer.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/my_coutomer_producer/Costomer.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/my_coutomer_producer/Producer.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/my_coutomer_producer/Main.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/my_coutomer_producer/Buffer.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/two_thread/PrintThread.java" />
+        <option value="$PROJECT_DIR$/guava-test/src/main/java/com/hzsgreat/utils/test.java" />
+        <option value="$PROJECT_DIR$/guava-test/src/main/java/com/hzsgreat/utils/Test.java" />
+        <option value="$PROJECT_DIR$/guava-test/src/main/java/com/hzsgreat/utils/MyTest.java" />
+        <option value="$PROJECT_DIR$/leetcode/pom.xml" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/reversal/Node.java" />
+        <option value="$PROJECT_DIR$/leetcode/src/main/java/reversal/LinkListReversal.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/MyLink.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/Node.java" />
+        <option value="$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/ListDemo.java" />
+        <option value="$PROJECT_DIR$/guava-test/pom.xml" />
       </list>
     </option>
   </component>
@@ -201,6 +245,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="guava-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="guava-test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="learn" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
@@ -224,8 +277,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="16" />
-    <option name="y" value="26" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -237,6 +289,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -277,7 +331,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="section_two_basic_thread_synchronization" type="462c0819:PsiDirectoryNode" />
+              <item name="section_three_thread_synchronization_utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="section_three_thread_synchronization_utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="count_down_latch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="section_three_thread_synchronization_utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="more_than_one_semaphore_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -287,7 +361,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="section_two_basic_thread_synchronization" type="462c0819:PsiDirectoryNode" />
-              <item name="producer_consumer_lock_demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -295,19 +368,14 @@
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="section_two_basic_thread_synchronization" type="462c0819:PsiDirectoryNode" />
-              <item name="producer_consumer_synchronized" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn" type="462c0819:PsiDirectoryNode" />
               <item name="concurrent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="section_two_basic_thread_synchronization" type="462c0819:PsiDirectoryNode" />
-              <item name="test_my_lock" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn" type="b2602c69:ProjectViewProjectNode" />
@@ -364,13 +432,142 @@
               <item name="data_structure" type="462c0819:PsiDirectoryNode" />
               <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="guava-test" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reversal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="two_thread" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,10 +582,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="data_structure.linked_list" />
+      <recent name="section_three_thread_synchronization_utilities.more_than_one_semaphore_demo" />
       <recent name="section_one.join_demo" />
     </key>
   </component>
@@ -404,13 +603,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.MyLink">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_two_basic_thread_synchronization.ReadWriteLock_demo.Main" />
+      <option name="MAIN_CLASS_NAME" value="section_three_thread_synchronization_utilities.count_down_latch.Main" />
       <module name="concurrent" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_two_basic_thread_synchronization.ReadWriteLock_demo.*" />
+          <option name="PATTERN" value="section_three_thread_synchronization_utilities.count_down_latch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -419,11 +618,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_two_basic_thread_synchronization.test_my_lock.Main" />
-      <module name="concurrent" />
+      <option name="MAIN_CLASS_NAME" value="my_coutomer_producer.Main" />
+      <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_two_basic_thread_synchronization.test_my_lock.*" />
+          <option name="PATTERN" value="my_coutomer_producer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,12 +630,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_two_basic_thread_synchronization.producer_consumer_synchronized.Main" />
-      <module name="concurrent" />
+    <configuration name="MyLink" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_structure.linked_list.MyLink" />
+      <module name="data-structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_two_basic_thread_synchronization.producer_consumer_synchronized.*" />
+          <option name="PATTERN" value="data_structure.linked_list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -444,12 +643,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_two_basic_thread_synchronization.lock_reentrantLock.Main" />
-      <module name="concurrent" />
+    <configuration name="MyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hzsgreat.utils.MyTest" />
+      <module name="guava-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_two_basic_thread_synchronization.lock_reentrantLock.*" />
+          <option name="PATTERN" value="com.hzsgreat.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -457,52 +656,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_two_basic_thread_synchronization.producer_consumer_lock_demo.Main" />
-      <module name="concurrent" />
+    <configuration name="Collections2Test.multisetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="guava-test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="section_two_basic_thread_synchronization.test_my_lock.*" />
+          <option name="PATTERN" value="unit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_two_basic_thread_synchronization.producer_consumer_synchronized.Main" />
-      <module name="concurrent" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_two_basic_thread_synchronization.producer_consumer_synchronized.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SynchronizedDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="section_two_basic_thread_synchronization.ReadWriteLock_demo.SynchronizedDemo" />
-      <module name="concurrent" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="section_two_basic_thread_synchronization.ReadWriteLock_demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="unit" />
+      <option name="MAIN_CLASS_NAME" value="unit.Collections2Test" />
+      <option name="METHOD_NAME" value="multisetTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.SynchronizedDemo" />
+        <item itemvalue="Application.MyLink" />
+        <item itemvalue="Application.MyTest" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="JUnit.Collections2Test.multisetTest" />
+        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -528,14 +704,18 @@
       <workItem from="1568645022220" duration="27198000" />
       <workItem from="1568813532386" duration="3502000" />
       <workItem from="1569027068998" duration="27442000" />
-      <workItem from="1569221177835" duration="18027000" />
+      <workItem from="1569221177835" duration="56375000" />
+      <workItem from="1570182269780" duration="94000" />
+      <workItem from="1570725863135" duration="1203000" />
+      <workItem from="1570785754666" duration="2488000" />
+      <workItem from="1570886797723" duration="15234000" />
+      <workItem from="1572754108958" duration="311000" />
+      <workItem from="1573375768372" duration="257000" />
+      <workItem from="1573775088204" duration="53000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IntsTest_ints - 2019.08.30 at 07h 23m 49s.xml">
-      <configuration name="IntsTest.ints" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CharMatcherTest_test - 2019.08.30 at 09h 57m 11s.xml">
       <configuration name="CharMatcherTest.test" configurationId="JUnit" />
     </history-entry>
@@ -563,9 +743,12 @@
     <history-entry file="Collections2Test_multisetTest - 2019.09.05 at 14h 53m 27s.xml">
       <configuration name="Collections2Test.multisetTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Collections2Test_multisetTest - 2019.10.11 at 17h 26m 24s.xml">
+      <configuration name="Collections2Test.multisetTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232899000" />
+    <option name="totallyTimeSpent" value="290887000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -577,10 +760,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="26" width="1440" height="877" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49335864" visible="true" weight="0.29756796" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49335864" visible="true" weight="0.32904148" />
       <window_info id="Structure" order="1" sideWeight="0.5066414" side_tool="true" weight="0.27110156" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -589,16 +772,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30828026" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2879518" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32866243" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.32866243" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32866243" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32866243" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32771084" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.3299363" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -666,287 +849,10 @@
     <SUITE FILE_PATH="coverage/learn$Solution.ic" NAME="Solution Coverage Results" MODIFIED="1566986188275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/transfer_demo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/transfer_demo/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/arranging_independent_attributes/Cinema.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1032">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="e#1313#1314#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1392#1393#0" expanded="true" />
-            <element signature="e#1431#1432#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/arranging_independent_attributes/TicketOffice1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/arranging_independent_attributes/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/ListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/MyLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/data_structure/queue/ArrayQueueDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/data_structure/queue/ArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/transfer_demo/Bank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/arranging_independent_attributes/TicketOffice2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding>
-            <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/data_structure/queue/CycleArrayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer_synchronized/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_one/create_threads_factory/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_one/daemon_thread_demo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_one/group_thread_demo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_one/process_exception_demo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_one/join_demo/JoinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_one/file_clock_demo/FileClock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/ReadWriteLock_demo/SynchronizedDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/ReadWriteLock_demo/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="178" column="17" lean-forward="true" selection-start-line="178" selection-start-column="17" selection-end-line="178" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="694" column="19" selection-start-line="694" selection-start-column="19" selection-end-line="694" selection-end-column="19" />
-          <folding>
-            <element signature="e#20770#20771#0" expanded="true" />
-            <element signature="e#20799#20800#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/ReadWriteLock_demo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/ReadWriteLock_demo/Reader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer_synchronized/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer_synchronized/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/lock_reentrantLock/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/lock_reentrantLock/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/lock_reentrantLock/PrintQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="183" column="11" lean-forward="true" selection-start-line="183" selection-start-column="11" selection-end-line="183" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/ReadWriteLock_demo/PricesInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer_lock_demo/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer_lock_demo/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -968,13 +874,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/develop/apache-maven-3.6.1/conf/repository/com/google/guava/guava/19.0/guava-19.0-sources.jar!/com/google/common/util/concurrent/CycleDetectingLockFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="814" column="16" selection-start-line="814" selection-start-column="16" selection-end-line="814" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -989,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Deque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="188" column="21" lean-forward="true" selection-start-line="188" selection-start-column="21" selection-end-line="188" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer_lock_demo/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -1007,26 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/MyLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="15" column="126" selection-start-line="15" selection-start-column="126" selection-end-line="15" selection-end-column="126" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,19 +926,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer_lock_demo/Buffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="30" column="15" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="292">
           <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
           <folding>
             <element signature="e#1663#1664#0" expanded="true" />
@@ -1075,10 +937,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/MyLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/ReadWriteLock_demo/PricesInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/ReadWriteLock_demo/Reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/test_my_lock/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="15" column="126" selection-start-line="15" selection-start-column="126" selection-end-line="15" selection-end-column="126" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/develop/apache-maven-3.6.1/conf/repository/com/google/guava/guava/19.0/guava-19.0-sources.jar!/com/google/common/util/concurrent/CycleDetectingLockFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="814" column="16" selection-start-line="814" selection-start-column="16" selection-end-line="814" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="866" column="39" lean-forward="true" selection-start-line="866" selection-start-column="39" selection-end-line="866" selection-end-column="39" />
+          <folding>
+            <element signature="e#41392#41393#0" expanded="true" />
+            <element signature="e#41449#41450#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="230" column="32" selection-start-line="230" selection-start-column="32" selection-end-line="230" selection-end-column="32" />
+        <state relative-caret-position="344">
+          <caret line="223" column="17" lean-forward="true" selection-start-line="223" selection-start-column="17" selection-end-line="223" selection-end-column="17" />
           <folding>
             <element signature="e#5562#5563#0" expanded="true" />
             <element signature="e#5614#5615#0" expanded="true" />
@@ -1098,14 +1026,252 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer_lock_demo/Buffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="862" column="39" selection-start-line="862" selection-start-column="39" selection-end-line="862" selection-end-column="39" />
+        <state relative-caret-position="1608">
+          <caret line="67" column="36" lean-forward="true" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
           <folding>
-            <element signature="e#41392#41393#0" expanded="true" />
-            <element signature="e#41449#41450#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1973#1974#0" expanded="true" />
+            <element signature="e#2019#2020#0" expanded="true" />
+            <element signature="e#2058#2059#0" expanded="true" />
+            <element signature="e#2112#2113#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/producer_consumer_lock_demo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/ReadWriteLock_demo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_two_basic_thread_synchronization/ReadWriteLock_demo/SynchronizedDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/resources/note.text">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/binary_semaphores_demo/PrintQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/binary_semaphores_demo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/binary_semaphores_demo/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="58" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="58" />
+          <folding>
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/more_than_one_semaphore_demo/PrintQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="698" column="29" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/more_than_one_semaphore_demo/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/more_than_one_semaphore_demo/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/my_costmer_producer.java" />
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/note">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/count_down_latch/VideoConference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/two_thread/TwoThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/two_thread/PrintThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/my_coutomer_producer/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" column="130" selection-start-line="15" selection-start-column="130" selection-end-line="15" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guava-test/src/test/java/unit/Collections2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/my_coutomer_producer/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/my_coutomer_producer/Costomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/my_coutomer_producer/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guava-test/src/main/java/com/hzsgreat/utils/MyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/reversal/LinkListReversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/src/main/java/reversal/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/ListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data-structure/src/main/java/data_structure/linked_list/MyLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/count_down_latch/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concurrent/src/main/java/section_three_thread_synchronization_utilities/count_down_latch/Participant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guava-test/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1159,7 +1325,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>data-structure</last-edited>
+          <last-edited>guava-test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

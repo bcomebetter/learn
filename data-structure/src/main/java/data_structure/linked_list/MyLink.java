@@ -8,23 +8,20 @@ import java.util.List;
  */
 public class MyLink {
     public static void main(String[] args) {
-        ListDemo listDemo = new ListDemo("hewei", "aaa", null);
-        ListDemo listDemo1 = new ListDemo("zhangsan", "aaa", null);
-        ListDemo listDemo2 = new ListDemo("lisi", "aaa", null);
-        ListDemo listDemo3 = new ListDemo("wangwu", "aaa", null);
-        ListDemo listDemo4 = new ListDemo("zhaoliu", "aaa", null);
-        ListDemo listDemo5 = new ListDemo("sunqi", "aaa", null);
         ListDemo head = new ListDemo();
-        head.addLast(listDemo);
-        head.addLast(listDemo1);
-        head.addLast(listDemo2);
-        head.addLast(listDemo3);
-        head.addLast(listDemo4);
-        head.addLast(listDemo5);
-        head.remove(listDemo3);
-        List<ListDemo> show = head.show();
-        for (ListDemo demo : show) {
-            System.out.println(demo);
-        }
+        head.addLast(new Node("hewei"));
+        head.addLast(new Node("zhangsan"));
+        head.addLast(new Node("lisi"));
+        head.addLast(new Node("wangwu"));
+        head.addLast(new Node("zhaoliu"));
+        head.addLast(new Node("sunqi"));
+        head.addLast(new Node("tianba"));
+        head.addLast(new Node("sanjiu"));
+        List<Node> show = head.show();
+        show.forEach(System.out::println);
+        System.out.println("--------------------------");
+        head.reversal();
+        show = head.show();
+        show.forEach(System.out::println);
     }
 }

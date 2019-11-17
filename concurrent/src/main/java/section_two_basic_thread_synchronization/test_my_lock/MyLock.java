@@ -4,17 +4,20 @@ import lombok.Data;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Objects;
 import java.util.concurrent.locks.LockSupport;
-import java.util.concurrent.locks.ReentrantLock;
 
 @Data
-public class MyLock extends ReentrantLock {
+public class MyLock {
     private volatile int state = 0;
-    private Deque<Thread> threadDeque = new ArrayDeque<>();
+    private Deque<Thread> threadDeque ;
 
     public void  lock(){
         int state = getState();
         if (threadDeque.size()!=0||!cas(state,1)){
+            if (Objects.isNull(threadDeque)){
+                threadDeque = new ArrayDeque<>();
+            }
             threadDeque.addFirst(Thread.currentThread());
             LockSupport.park();
         }

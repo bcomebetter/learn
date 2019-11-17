@@ -12,92 +12,78 @@ import java.util.Objects;
  */
 @Data
 public class ListDemo {
-    private String name;
-    private String password;
-    private ListDemo next;
-    private ListDemo head;
-
-    @Override
-    public String toString() {
-        return "ListDemo{" +
-                "name='" + name + '\'' +
-                ", password='" + password + '\'' +
-                '}';
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        ListDemo listDemo = (ListDemo) o;
-        return name.equals(listDemo.name) &&
-                password.equals(listDemo.password);
-    }
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, password);
-    }
-
+    private Node head;
     /**
      *
      * @return
      */
     public ListDemo(){
-        head = new ListDemo("头节点",null,null);
+        head = new Node("头节点");
     }
-    public ListDemo(String name, String password, ListDemo next) {
-        this.name = name;
-        this.password = password;
-        this.next = next;
-    }
-    public void addLast(ListDemo listDemo){
-        ListDemo temp = head;
+
+    public void addLast(Node node){
+        Node temp = head;
         while (true){
-            if (Objects.nonNull(temp.getNext())){
-                temp =temp.getNext();
+            if (Objects.nonNull(temp.next)){
+                temp =temp.next;
             }else {
-                temp.setNext(listDemo);
+                temp.next =node;
                 break;
             }
         }
     }
-    public void addFirst(ListDemo listDemo){
-        ListDemo temp = head;
-        if (Objects.nonNull(temp.getNext())){
-            listDemo.setNext(temp.getNext());
+    public void addFirst(Node node){
+        Node temp = head;
+        if (Objects.nonNull(temp.next)){
+            node.next = temp.next;
         }
-        temp.setNext(listDemo);
+        head.next = node;
     }
-    public boolean remove(ListDemo listDemo){
-        ListDemo temp = head;
+    public boolean remove(Node node){
+        Node temp = head;
         while (true){
-            if (Objects.isNull(temp.getNext())){
+            if (Objects.isNull(temp.next)){
                 return false;
             }
-            if (!temp.getNext().equals(listDemo)){
-                temp =temp.getNext();
+            if (!temp.next.equals(node)){
+                temp =temp.next;
             }else {
-                ListDemo same = temp.getNext();
-                temp.setNext(temp.getNext().getNext());
-                same.setNext(null);
+                Node same = temp.next;
+                temp.next = temp.next.next;
+                same.next = null;
                 return true;
             }
         }
     }
-    public List<ListDemo> show(){
-        List<ListDemo> list = Lists.newArrayList();
-        ListDemo temp = head;
-        if (Objects.isNull(temp.getNext())){
+    public List<Node> show(){
+        List<Node> list = Lists.newArrayList();
+        Node temp = head;
+        if (Objects.isNull(temp.next)){
             return list;
         }
         while (true){
-            if (Objects.nonNull(temp.getNext())){
-                list.add(temp.getNext());
-                temp = temp.getNext();
+            if (Objects.nonNull(temp.next)){
+                list.add(temp.next);
+                temp = temp.next;
             }else {
                 break;
             }
         }
         return list;
+    }
+    public void reversal(){
+        if (Objects.isNull(head.next)||Objects.isNull(head.next.next)){
+            return;
+        }
+        Node cur = head.next;
+        Node last = null;
+
+        while (Objects.nonNull(cur)){
+            head.next = cur;
+            cur = cur.next;
+            head.next.next= last;
+            last = head.next;
+        }
+
     }
 }
