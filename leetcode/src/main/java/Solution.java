@@ -8,6 +8,7 @@ import java.util.HashSet;
  */
 public class Solution {
     static int findLastEqual(int[] array, int key) {
+        System.out.println("ccc");
         int left = 0;
         int right = array.length - 1;
         while (left <= right) {
